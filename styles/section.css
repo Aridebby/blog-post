@@ -1,0 +1,52 @@
+body {
+    background:pink;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  #heading{
+    align-self: center;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .navbar__menu ul {
+    padding-left: 0;
+    margin: 10px;
+    text-align: right;
+}
+  
+#card{
+  width: 200px;
+  padding-left: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+  background-color: aqua;
+}
+
+#blog-head{
+  display: flex;
+}
